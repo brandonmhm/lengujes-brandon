@@ -16,7 +16,7 @@ public class LenguajesBrandon {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("mi primer programa de java 2");
+        System.out.println("linea modificada");
     }
     
 }
