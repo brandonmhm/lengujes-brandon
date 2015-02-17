@@ -12,6 +12,10 @@ package Cuadrado;
 public class Cuadrado {
     
     private float lado;
+/**
+ * Este constructor tiene un argumento de tipo flotante
+ * @param lado El parametro que debes ingresar es el valor del lado de tu cuadrado
+ */
 //constructor que diseñe por mi y se debe de 
     //crear el constructor por defecto
     public Cuadrado(float lado) {
@@ -36,7 +40,16 @@ public class Cuadrado {
                 
     }
     
+  //solo omite este este renglon
     
+    /*
+    este omite multiples arreglos
+    */
+    
+    /**
+     este sirve para hacer mi documentacion 
+     */
+     
     
     
     

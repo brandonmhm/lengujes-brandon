@@ -9,6 +9,7 @@ package Cuadrado;
  *
  * @author T-301
  */
+import java.io.*;
 public class Arreglos1 {
      public static void main (String args[]){
          //declaro el arreglo y lo inicializo
@@ -25,8 +26,29 @@ public class Arreglos1 {
          x[1]=200;
          x[2]=-23;
          //Iterar es hacer el recorrido
-         for(int i=0;i<x.length;i++)
+        
+
+//ejercicio de certificacion es infinity 
+         int a=2;
+         float b=0;
+         System.out.println(a/b);
+        
+         /*
+         for(int i=0;i<4;i++){
              System.out.println(x[i]);
+        }
+        */
          
+         /* tipo checked pork debes ponerle codigo adicional
+         File file=new File("salida");
+         FileOutputStream salida=new FileOutputStream(file);
+         */
+         System.out.println("si ocurre la excepcion"+ "nunca me veras");
+                 
+         /*for(int algodon:x){
+             System.out.println(algodon);
+         
+                 }*/
+       
      }
 }
