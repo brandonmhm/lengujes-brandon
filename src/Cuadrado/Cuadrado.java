@@ -18,7 +18,9 @@ public class Cuadrado {
  */
 //constructor que diseñe por mi y se debe de 
     //crear el constructor por defecto
-    public Cuadrado(float lado) {
+    public Cuadrado(float lado) throws NumeroNoNegativoException {
+       //en esta validacion no era necesario usar new pork no es privado
+        ValidarValorNoNegativo.validar(lado);
         this.lado = lado;
     }
 //constructor por defecto se debe de volver 
@@ -30,7 +32,8 @@ public class Cuadrado {
         return lado;
     }
 
-    public void setLado(float lado) {
+    public void setLado(float lado) throws NumeroNoNegativoException {
+         ValidarValorNoNegativo.validar(lado);
         this.lado = lado;
     }
     
