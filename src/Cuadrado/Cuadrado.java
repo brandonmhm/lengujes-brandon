@@ -20,7 +20,7 @@ public class Cuadrado {
     //crear el constructor por defecto
     public Cuadrado(float lado) throws NumeroNoNegativoException {
        //en esta validacion no era necesario usar new pork no es privado
-        ValidarValorNoNegativo.validar(lado);
+        ValidarValores.ValidarValorNoNegativo.validar(lado);
         this.lado = lado;
     }
 //constructor por defecto se debe de volver 
