@@ -11,15 +11,7 @@ package Cuadrado;
  */
 public class Validaciones {
     
-    public static void validar(float valor)throws NumeroNoNegativoException{
-    if (valor<0)throw new NumeroNoNegativoException();
-    }    
-    
-        public static void validar(float valor)throws FueraDeRangoException{
-         if(valor>20 ||valor<10) throw new FueraDeRangoException();
-            
-        } 
-             
+
     
         
         

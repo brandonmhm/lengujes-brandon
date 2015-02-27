@@ -9,7 +9,7 @@ package Cuadrado;
  *
  * @author T-107
  */
-public class Rectangulo {
+public class Rectangulo implements Superficies{
     private float LadoMayor;
     private float LadoMenor;
 
@@ -20,7 +20,8 @@ public class Rectangulo {
         this.LadoMayor = LadoMayor;
         this.LadoMenor = LadoMenor;
     }
-    public float calcularArea(){
+    public float CalcularArea(){
+        System.out.print("El ares del rectangulo es:");
     return LadoMayor*LadoMenor;
     
     }

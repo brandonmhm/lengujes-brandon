@@ -9,7 +9,7 @@ package Cuadrado;
  *
  * @author T-301
  */
-public class Cuadrado {
+public class Cuadrado implements Superficies{
     
     private float lado;
 /**
@@ -18,9 +18,9 @@ public class Cuadrado {
  */
 //constructor que diseñe por mi y se debe de 
     //crear el constructor por defecto
-    public Cuadrado(float lado) throws NumeroNoNegativoException {
+    public Cuadrado(float lado)  {
        //en esta validacion no era necesario usar new pork no es privado
-        ValidarValores.ValidarValorNoNegativo.validar(lado);
+       // ValidarValores.ValidarValorNoNegativo.validar(lado);
         this.lado = lado;
     }
 //constructor por defecto se debe de volver 
@@ -32,16 +32,20 @@ public class Cuadrado {
         return lado;
     }
 
-    public void setLado(float lado) throws NumeroNoNegativoException {
-         ValidarValorNoNegativo.validar(lado);
+    public void setLado(float lado){
+  
         this.lado = lado;
     }
     
-    public float calcularArea(){
+    @Override
+    public float CalcularArea(){
+        System.out.print("El area del cuadrado es:");
         float area=lado*lado;
                return area;
                 
     }
+
+    
     
   //solo omite este este renglon
     

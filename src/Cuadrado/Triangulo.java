@@ -9,7 +9,7 @@ package Cuadrado;
  *
  * @author T-107
  */
-public class Triangulo {
+public class Triangulo implements Superficies{
    private float Base;
    private float Altura;
 
@@ -22,6 +22,7 @@ public class Triangulo {
     }
     
     public float CalcularArea(){
+        System.out.print("El area del Triangulo es");
     return (Base*Altura)/2;
     }
 
