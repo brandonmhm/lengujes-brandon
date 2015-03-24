@@ -80,7 +80,7 @@ public class InterfacesAreas extends javax.swing.JFrame {
         // TODO add your handling code here:
          try{
     Cuadrado c=new Cuadrado(Float.parseFloat(jTextField1.getText()));
-    jLabel1.setText("el area es:"+c.calcularArea());
+//    jLabel1.setText("el area es:"+c.calcularArea());
     }
     catch(Exception e){
         jLabel1.setText(e.getMessage());

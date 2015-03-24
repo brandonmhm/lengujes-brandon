@@ -17,8 +17,8 @@ public class AplicacionImc {
     public static void main(String[] args) {
         // primero creamos un objeto de tipo Imc
         Imc xxx=new Imc();
-       float resultado= xxx.calcular(-1.64f, 60f);
-        System.out.println("tu imc es;"+resultado);
-    }
+     //  float resultado= xxx.calcular(-1.64f, 60f);
+     //   System.out.println("tu imc es;"+resultado);
+    }//
     
 }
